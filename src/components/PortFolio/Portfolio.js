@@ -41,10 +41,9 @@ const Portfolio = () => {
                   <div className='portfolio-links'>
                     <a
                       href='https://proshopcart.herokuapp.com/'
-                      data-gall='portfolioDetailsGallery'
-                      data-vbtype='iframe'
+                      target='_blank'
                       className='venobox'
-                      title='Portfolio Details'>
+                      title='Ecommerce Website'>
                       <FaLink />
                     </a>
                   </div>
@@ -61,10 +60,9 @@ const Portfolio = () => {
                   <div className='portfolio-links'>
                     <a
                       href='https://amazing-jones-c1a1f9.netlify.app/'
-                      data-gall='portfolioDetailsGallery'
-                      data-vbtype='iframe'
+                      target='_blank'
                       className='venobox'
-                      title='Portfolio Details'>
+                      title='Book Shop'>
                       <FaLink />
                     </a>
                   </div>
@@ -81,10 +79,9 @@ const Portfolio = () => {
                   <div className='portfolio-links'>
                     <a
                       href='https://freespeech4all.herokuapp.com/'
-                      data-gall='portfolioDetailsGallery'
-                      data-vbtype='iframe'
+                      target='_blank'
                       className='venobox'
-                      title='Portfolio Details'>
+                      title='Blogging website'>
                       <FaLink />
                     </a>
                   </div>

@@ -1,13 +1,14 @@
 /** @format */
 
 import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
+import './Skills.css'
 import Techstack from './Techstack'
 import Github from './GitHub'
 
 const Skills = () => {
   return (
-    <Container>
+    <Container className='skill'>
       <Techstack />
       <Github />
     </Container>

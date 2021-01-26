@@ -1,0 +1,16 @@
+/** @format */
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}

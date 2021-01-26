@@ -6,12 +6,12 @@ import { Container } from 'react-bootstrap'
 
 const Resume = () => {
   return (
-    <Container fluid className='resume-section' id='about'>
+    <Container fluid className='resume-section' id='resume'>
       <section id='resume' className='resume'>
         <div className='container'>
           <div className='section-title'>
-            <h2 style={{ marginLeft: '40%' }} className='purple'>
-              Resume
+            <h2 style={{ marginLeft: '40%' }}>
+              My <strong className='purple'> Resume</strong>
             </h2>
             <p style={{ marginLeft: '10%' }}>
               Here is my Resume for reference.The information about my Education

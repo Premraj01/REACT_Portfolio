@@ -1,7 +1,7 @@
 /** @format */
 
 import React from 'react'
-import { Container, Card, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import './Portfolio.scss'
 import './Portfolio.css'
 import { FaLink } from 'react-icons/fa'
@@ -11,8 +11,8 @@ import book from './img/book.png'
 
 const Portfolio = () => {
   return (
-    <section className='portfolio-section'>
-      <Container id='portfolio' className='portfolio section-bg'>
+    <section id='portfolio' className='portfolio-section'>
+      <Container className='portfolio section-bg'>
         <div className='container' data-aos='fade-up'>
           <div className='section-title'>
             <h1 style={{ marginLeft: '40%' }} className='purple'>
@@ -42,6 +42,7 @@ const Portfolio = () => {
                     <a
                       href='https://proshopcart.herokuapp.com/'
                       target='_blank'
+                      rel='noreferrer'
                       className='venobox'
                       title='Ecommerce Website'>
                       <FaLink />
@@ -61,6 +62,7 @@ const Portfolio = () => {
                     <a
                       href='https://amazing-jones-c1a1f9.netlify.app/'
                       target='_blank'
+                      rel='noreferrer'
                       className='venobox'
                       title='Book Shop'>
                       <FaLink />
@@ -80,6 +82,7 @@ const Portfolio = () => {
                     <a
                       href='https://freespeech4all.herokuapp.com/'
                       target='_blank'
+                      rel='noreferrer'
                       className='venobox'
                       title='Blogging website'>
                       <FaLink />
@@ -91,7 +94,8 @@ const Portfolio = () => {
             <Col md={1} className='ml-2 '>
               <a
                 href='https://github.com/Premraj01?tab=repositories'
-                target='_blank'>
+                target='_blank'
+                rel='noreferrer'>
                 <button className='learn-more '>
                   <span className='circle' aria-hidden='true'>
                     <span className='icon arrow'></span>

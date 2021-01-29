@@ -28,7 +28,7 @@
 .hero {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(img/home-bg.jpg);
+  background-image: var(--image-gradient);
   height: 100%;
   background-position: top center;
   background-repeat: no-repeat;

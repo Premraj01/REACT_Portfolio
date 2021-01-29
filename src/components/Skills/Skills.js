@@ -8,7 +8,7 @@ import Github from './GitHub'
 
 const Skills = () => {
   return (
-    <Container className='skill'>
+    <Container id='skills' className='skill'>
       <Techstack />
       <Github />
     </Container>

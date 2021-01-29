@@ -3,45 +3,15 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './Home.css'
-import './Header.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import homeLogo from './img/home-main.svg'
 import TypeWriter from './TypeWriter'
-import { Link } from 'react-router-dom'
-import {
-  FaHome,
-  FaUser,
-  FaTools,
-  FaFileAlt,
-  FaLaptopCode,
-} from 'react-icons/fa'
 
 const Home = () => {
   return (
     <>
-      <header id='header' className='d-flex flex-column justify-content-center'>
-        <div className='nav-items'>
-          <div>
-            <Link className='icon'>
-              <FaHome />
-            </Link>
-            <Link className='icon'>
-              <FaUser />
-            </Link>
-            <Link className='icon'>
-              <FaFileAlt />
-            </Link>
-            <Link className='icon'>
-              <FaTools />
-            </Link>
-            <Link className='icon'>
-              <FaLaptopCode />
-            </Link>
-          </div>
-        </div>
-      </header>
-      <section className='d-flex flex-column justify-content-center'>
+      <section id='hero' className='d-flex flex-column justify-content-center'>
         <Container fluid className='hero' id='home'>
           <Container className='hero-content'>
             <Row>

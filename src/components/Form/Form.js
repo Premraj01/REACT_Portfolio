@@ -2,6 +2,7 @@
 
 import React from 'react'
 import './form.css'
+import { Row, Col } from 'react-bootstrap'
 
 const Form = () => {
   return (
@@ -37,11 +38,7 @@ const Form = () => {
           </div>
 
           <div className='col-lg-8 mt-5 mt-lg-0'>
-            <form
-              action='forms/contact.php'
-              method='post'
-              role='form'
-              className='php-email-form'>
+            <form className='php-email-form'>
               <div className='form-row'>
                 <div className='col-md-6 form-group'>
                   <input

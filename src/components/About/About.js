@@ -4,13 +4,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Tilt from 'react-parallax-tilt'
 import './About.css'
-import {
-  FaGithub,
-  FaInstagram,
-  FaFacebook,
-  FaTwitter,
-  FaLinkedin,
-} from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
 import myImg from './img/avatar.svg'
 
 const About = () => {
@@ -67,8 +61,9 @@ const About = () => {
               <li className='social-icons'>
                 <a
                   href='https://github.com/Premraj01'
+                  title='GitHub'
                   target='_blank'
-                  rel='noreferrer'
+                  rel='noopener noreferrer'
                   className='icon-colour  home-social-icons'>
                   <FaGithub />
                 </a>
@@ -77,16 +72,18 @@ const About = () => {
                 <a
                   href='https://www.linkedin.com/in/premraj-tripute-45364910a/'
                   target='_blank'
-                  rel='noreferrer'
+                  title='LinkedIn'
+                  rel='noopener noreferrer'
                   className='icon-colour  home-social-icons'>
                   <FaLinkedin />
                 </a>
               </li>
               <li className='social-icons'>
                 <a
-                  href='#'
+                  href='https://twitter.com/PremrajTripute'
                   target='_blank'
-                  rel='noreferrer'
+                  title='Twitter'
+                  rel='noopener noreferrer'
                   className='icon-colour  home-social-icons'>
                   <FaTwitter />
                 </a>
@@ -96,7 +93,8 @@ const About = () => {
                 <a
                   href='https://www.instagram.com/prem.raj_12/'
                   target='_blank'
-                  rel='noreferrer'
+                  title='Instagram'
+                  rel='noopener noreferrer'
                   className='icon-colour home-social-icons'>
                   <FaInstagram />
                 </a>

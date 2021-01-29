@@ -2,7 +2,7 @@
 
 import React from 'react'
 import './form.css'
-import { Row, Col } from 'react-bootstrap'
+import { FaReact } from 'react-icons/fa'
 
 const Form = () => {
   return (
@@ -24,13 +24,13 @@ const Form = () => {
               </div>
 
               <div className='email'>
-                <i class='fas fa-envelope fa-2x'></i>
+                <i className='fas fa-envelope fa-2x'></i>
                 <h4>Email:</h4>
                 <p>premrajtripute777@gmail.com</p>
               </div>
 
               <div className='phone'>
-                <i class='fas fa-mobile fa-2x'></i>
+                <i className='fas fa-mobile fa-2x'></i>
                 <h4>Call:</h4>
                 <p>+91-7020817398</p>
               </div>
@@ -95,6 +95,27 @@ const Form = () => {
           </div>
         </div>
       </div>
+      <footer>
+        <div className='footer-flex'>
+          <h4>
+            Developed using{' '}
+            <a href='https://reactjs.org/' target='_blank' rel='noreferrer'>
+              <strong className='blue'>
+                <FaReact /> React
+              </strong>
+            </a>
+          </h4>
+          <h4>
+            Design By &nbsp;
+            <a
+              href='https://github.com/soumyajit4419'
+              target='_blank'
+              rel='noreferrer'>
+              <strong className='purple'>Soumyajit Behera</strong>
+            </a>
+          </h4>
+        </div>
+      </footer>
     </section>
   )
 }

@@ -28,15 +28,17 @@
 .hero {
   position: relative;
   z-index: -1;
+  padding-top: 200px;
+  margin-bottom: 2px;
+  height: 980px;
   background-image: var(--image-gradient);
-  height: 100%;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 250px !important;
-  padding-top: 30px !important;
+  margin-top: 30px;
 }
 
 .hero-header {
+  margin-top: 80px;
   padding-top: 80px !important;
 }
 

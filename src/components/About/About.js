@@ -1,8 +1,7 @@
 /** @format */
 
-import React from 'react'
+import React, { memo } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Tilt from 'react-parallax-tilt'
 import './About.css'
 import { FaGithub, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
 import myImg from './img/avatar.svg'
@@ -46,9 +45,7 @@ const About = () => {
             </p>
           </Col>
           <Col md={4} className='myAvtar'>
-            <Tilt>
-              <img src={myImg} className='img-fluid' alt='avatar' />
-            </Tilt>
+            <img src={myImg} className='img-fluid' alt='avatar' />
           </Col>
         </Row>
         <Row>
@@ -107,4 +104,4 @@ const About = () => {
   )
 }
 
-export default About
+export default memo(About)

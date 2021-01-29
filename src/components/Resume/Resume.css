@@ -19,12 +19,11 @@
 .resume-section {
   position: relative;
   z-index: -1;
+  height: 980px;
   background-image: var(--image-gradient);
-  height: 100%;
   background-position: top center;
-  background-repeat: no-repeat;
   padding-bottom: 70px !important;
-  padding-top: 30px !important;
+  padding-top: 10px !important;
 }
 
 h2,
@@ -37,8 +36,7 @@ li {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
   color: white;
 }
 

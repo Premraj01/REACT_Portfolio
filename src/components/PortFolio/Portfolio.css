@@ -18,10 +18,13 @@
 .portfolio-section {
   position: relative;
   z-index: 1;
+  height: 980px;
   background-image: var(--image-gradient);
-  padding-bottom: 490px !important;
-  padding-top: 200px !important;
   background-repeat: no-repeat;
+}
+
+.section-title {
+  padding-top: 10%;
 }
 
 .portfolio .portfolio-item {

@@ -30,7 +30,7 @@ const Home = () => {
                 </div>
               </Col>
 
-              <Col md={5} style={{ paddingBottom: 20 }}>
+              <Col md={5} style={{ paddingBottom: 30 }}>
                 <img src={homeLogo} alt='home pic' className='img-fluid' />
               </Col>
             </Row>
